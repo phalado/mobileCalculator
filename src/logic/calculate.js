@@ -12,7 +12,8 @@ function calculate(calculator, buttonName) {
       total = buttonName;
     }
   } else if (buttonName === '.') {
-    if (total.indexOf(buttonName) === -1) {
+    if (!total) total = '0.';
+    else if (total.indexOf(buttonName) === -1) {
       total += buttonName;
     }
   } else if (buttonName === '+/-') {

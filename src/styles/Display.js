@@ -5,9 +5,11 @@ const DisplayStyles = StyleSheet.create({
     flex: 1,
     padding: 20,
     justifyContent: 'space-between',
-    backgroundColor: 'rgba(0,0,0,0.6)',
+    backgroundColor: 'rgba(190,190,190,0.6)',
     alignItems: 'center',
     flexDirection: 'row',
+    borderRadius: 10,
+    margin: 5,
   },
   displayValueContainer: {
     width: '80%',
