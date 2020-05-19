@@ -9,8 +9,12 @@ const Display = props => {
 
   return (
     <View style={DisplayStyles.display}>
-      <Text style={DisplayStyles.displaySymbol}>{operation}</Text>
-      <Text style={DisplayStyles.displayValue}>{parseFloat(value)}</Text>
+      <View style={DisplayStyles.displaySymbol}>
+        <Text style={DisplayStyles.displaySymbolText}>{operation}</Text>
+      </View>
+      <View style={DisplayStyles.displayValueContainer}>
+        <Text style={DisplayStyles.displayValue}>{parseFloat(value)}</Text>
+      </View>
     </View>
   );
 };

@@ -14,7 +14,8 @@
     "prop-types": "^15.7.2",
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-gesture-handler": "^1.6.1"
+    "react-native-gesture-handler": "^1.6.1",
+    "rnpm": "^1.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -33,5 +34,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": ["./src/assets/fonts"]
   }
 }
